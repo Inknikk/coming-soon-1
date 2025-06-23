@@ -13,11 +13,11 @@
 }
 
 body {
-    overflow: hidden;
     font-family: "Montserrat", sans-serif;
-    background: #0a0a1a;
     color: white;
-    height: 100vh;
+    overflow-y: auto;
+    background: #0a0a1a;
+    min-height: 100vh;
     color-scheme: light only;
 }
 
@@ -25,11 +25,13 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 2rem;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.2rem 2rem;
+    background: rgba(10, 10, 26, 0.4);
+    backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -41,19 +43,21 @@ header {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    display: block;
+    margin: 0;
 }
 
+
+
 .coming-soon-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 100px auto 0; 
+    top: 30px;
     text-align: center;
     z-index: 50;
     width: 95%;
     max-width: 800px;
     background: var(--glass-bg);
-    margin: 0 auto;
     padding: 3rem 2rem;
     border-radius: 24px;
     border: 1px solid var(--glass-border);
