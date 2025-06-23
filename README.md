@@ -9,7 +9,7 @@ Living Background
 Auto-Changing Colors
 Cycles through beautiful color schemes every 15 seconds
 
-Clean AF Design
+Clean  Design
 Glass-like countdown timer + bold typography
 
 Zero Dependencies
