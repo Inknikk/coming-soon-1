@@ -10,10 +10,10 @@
         
         // More sophisticated color palette
         var palettes = [
-            ['#00F0B5', '#7237BD', '#FF3E9D', '#0CF2E7'],
-            ['#7B2CBF', '#E0AAFF', '#9D4EDD', '#C77DFF'],
-            ['#4361EE', '#3A0CA3', '#7209B7', '#F72585'],
-            ['#2B2D42', '#8D99AE', '#EF233C', '#D90429']
+            ['#00F0B5CC', '#7237BDCC', '#FF3E9DCC', '#0CF2E7CC'],
+            ['#7B2CBFCC', '#E0AAFFCC', '#9D4EDDCC', '#C77DFFCC'],
+            ['#4361EECC', '#3A0CA3CC', '#7209B7CC', '#F72585CC'],
+            ['#2B2D42CC', '#8D99AECC', '#EF233CCC', '#D90429CC']
         ];
         
         var currentPalette = palettes[0];
