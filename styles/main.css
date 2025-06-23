@@ -51,8 +51,8 @@ header {
 
 .coming-soon-container {
     position: relative;
-    margin: 100px auto 0; 
-    top: 30px;
+    margin: 0 auto; 
+    top: 100px;
     text-align: center;
     z-index: 50;
     width: 95%;
